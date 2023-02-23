@@ -5,10 +5,10 @@ public class Celle {
     private boolean celle_levende ;
 
 
-    public  Celle[] naboer ;
-    public int antNaboer = 0;
+    private  Celle[] naboer ;
+    private int antNaboer = 0;
 
-    public int antLevendeNaboer = 0;
+    private int antLevendeNaboer = 0;
 
 
     public Celle(){
